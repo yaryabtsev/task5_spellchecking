@@ -28,7 +28,8 @@ public:
         unsigned int* a = new unsigned int[n];
         unsigned int b = 0;
         unsigned int c = 0xe6546b64;
-        for (size_t i = 0; i < n; i++) {
+        for (size_t i = 0; i < n; i++) 
+        {
             signed char v = s[i];
             b = b * c1 + v;
             c ^= b;
